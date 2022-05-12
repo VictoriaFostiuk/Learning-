@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* all elements without style
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+*/
+body{
+  background: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Ubuntu', sans-serif;
+
+/* font: normal 16px 'Ubuntu',
+  sans-serif */
+ }
+
+ .info{
+   display: flex;
+   margin-bottom: 20px;
+ }
+ .avatar{
+   width: 200px;
+   border-top: 40px;
+   border-radius: 28px;
+   box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+ }
+ .text-info{
+   margin-left: 25px;
+ }
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration:inherit;
+  color: blue;
+}
+a:visited{
+  color: grey;
+}
+
+
+.background-papayawhip{
+  background-color: #fff9dc
+}
+
+.background-green{
+  background-color: #e5ffe7
+}
+
+.background-blue{
+  background-color: #D6E5FB
+
+}
+
+.card{
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.card h2{
+  margin-top: 10px;
+}
+
+.list{
+  padding: 0 20px;
+}
+
+.table{
+  width: 100%
+}
+
+.table td{
+  padding-bottom: 10px;
+}
+
+.table tr:nth-child(1){
+  color: #86898f;
+}
+
+/*.contact h2{
+  text-align: center;
+} */
+
+.form-group label{
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input, .form-group textarea{
+  width: 400px;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #82A0CC;
+  padding: 15px 0 10px;
+  outline: #000;
+  font-family: inherit;
+}
+
+.button{
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.button:hover{
+  opacity: 0, 9;
+}
+/*.table tr:nth-child(even){
+  color: grey;
+}
+
+.info p{
+  color: #86898f;
+  margin: 0;
+  font-style: italic;*/
+/*  text-transform: inherit;
+    text-decoration: overline;
+    letter-spacing: 5px;
+    word-spacing: 10px;*/
+/* }
+
+/* Box model */
+ .container{
+  padding-top: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* position */
+
+.position{
+  width:
+}
+
+.box{
+  width: 50px;
+  height: 50px;
+  color: lightcoral;
+}
+/*.social{
+  background: papayawhip;
+  border-radius: 15px;
+  padding: 10px;
+  border: 2px solid #DFDEC3;
+} */
